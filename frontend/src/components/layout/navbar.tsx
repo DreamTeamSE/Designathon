@@ -10,20 +10,20 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="flex items-center justify-between p-4 bg-background border-b">
+    <nav className="flex items-center justify-between p-4 bg-background">
       {/* Logo */}
-      <Link href="/" className="text-xl font-bold">
+      <Link href="/" className="text-xl font-bold text-primary">
         Designathon
       </Link>
 
       {/* Desktop Navigation */}
       <div className="hidden md:flex space-x-6">
-        <Link href="/schedule" className="hover:text-primary">Schedule</Link>
-        <Link href="/application" className="hover:text-primary">Application</Link>
-        <Link href="/prizes" className="hover:text-primary">Prizes</Link>
-        <Link href="/sponsors" className="hover:text-primary">Sponsors</Link>
-        <Link href="/faq" className="hover:text-primary">FAQ</Link>
-        <Link href="/contact" className="hover:text-primary">Contact</Link>
+        <Link href="/schedule" className="hover:text-secondary">Schedule</Link>
+        <Link href="/application" className="hover:text-secondary">Application</Link>
+        <Link href="/prizes" className="hover:text-secondary">Prizes</Link>
+        <Link href="/sponsors" className="hover:text-secondary">Sponsors</Link>
+        <Link href="/faq" className="hover:text-secondary">FAQ</Link>
+        <Link href="/contact" className="hover:text-secondary">Contact</Link>
       </div>
 
       {/* Mobile Menu */}
