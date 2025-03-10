@@ -30,13 +30,15 @@ export function Navbar() {
       </Link>
 
       {/* Desktop Navigation */}
-      <div className="hidden md:flex space-x-6">
-        <Link href="/schedule" className="hover:text-secondary">Schedule</Link>
-        <Link href="/application" className="hover:text-secondary">Application</Link>
-        <Link href="/prizes" className="hover:text-secondary">Prizes</Link>
-        <Link href="/sponsors" className="hover:text-secondary">Sponsors</Link>
-        <Link href="/faq" className="hover:text-secondary">FAQ</Link>
-        <Link href="/contact" className="hover:text-secondary">Contact</Link>
+      <div className="hidden md:flex">
+        <Link href="/about" className="hover:text-secondary mx-[12px]">ABOUT</Link>
+        <Link href="/schedule" className="hover:text-secondary mx-[12px]">SCHEDULE</Link>
+        <Link href="/prizes" className="hover:text-secondary mx-[12px]">PRIZES</Link>
+        <Link href="/sponsors" className="hover:text-secondary mx-[12px]">SPONSORS</Link>
+        <Link href="/register">
+          <Button variant="default" size="sm" className="hover:bg-secondary mx-[10px]">REGISTER</Button>
+        </Link>
+        
       </div>
 
       {/* Mobile Menu */}
