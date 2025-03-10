@@ -5,15 +5,28 @@ import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import Image from "next/image"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="flex items-center justify-between p-4 bg-background">
+    <nav className="flex items-center justify-between p-6 bg-background">
       {/* Logo */}
-      <Link href="/" className="text-xl font-bold text-primary">
-        Designathon
+      <Link href="/" className="text-xl">
+      <span className="flex flex-row font-bayon select-none">
+        <h1 className="text-[24px] relative group">
+          DESIGNATH
+        </h1>
+        <Image
+          src="/assets/transparent_heart.png"
+          alt="X"
+          width={24}
+          height={24}
+          className="object-contain animate-move relative -translate-y-[3px]"
+        />
+        <h1 className="text-[24px]">N</h1>
+        </span>
       </Link>
 
       {/* Desktop Navigation */}
