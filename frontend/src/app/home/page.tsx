@@ -2,7 +2,7 @@ import Hero from "@/components/layout/Hero";
 import { Separator } from "@/components/ui/separator"
 
 
-export default function Home() {
+export default function Page() {
   return (
     <div>
       <Hero />
