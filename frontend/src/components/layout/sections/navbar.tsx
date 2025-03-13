@@ -35,9 +35,9 @@ export function Navbar() {
         <Link href="/schedule" className="hover:text-secondary mx-[12px]">SCHEDULE</Link>
         <Link href="/prizes" className="hover:text-secondary mx-[12px]">PRIZES</Link>
         <Link href="/sponsors" className="hover:text-secondary mx-[12px]">SPONSORS</Link>
-        <Link href="/register">
+        <a href="https://form.typeform.com/to/SX2PnmnU" target="_blank">
           <Button variant="default" size="sm" className="hover:bg-secondary mx-[10px]">REGISTER</Button>
-        </Link>
+        </a>
         
       </div>
 
@@ -48,16 +48,12 @@ export function Navbar() {
             <Menu className="w-6 h-6" />
           </Button>
         </SheetTrigger>
-        <SheetContent side="left" className="flex flex-col space-y-6 p-6">
-          <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)}>
-            <X className="w-6 h-6" />
-          </Button>
+        <SheetContent side="right" className="flex flex-col space-y-6 p-6">
+          <Link href="/about" onClick={() => setIsOpen(false)} className="text-lg">About</Link>
           <Link href="/schedule" onClick={() => setIsOpen(false)} className="text-lg">Schedule</Link>
-          <Link href="/application" onClick={() => setIsOpen(false)} className="text-lg">Application</Link>
           <Link href="/prizes" onClick={() => setIsOpen(false)} className="text-lg">Prizes</Link>
           <Link href="/sponsors" onClick={() => setIsOpen(false)} className="text-lg">Sponsors</Link>
-          <Link href="/faq" onClick={() => setIsOpen(false)} className="text-lg">FAQ</Link>
-          <Link href="/contact" onClick={() => setIsOpen(false)} className="text-lg">Contact</Link>
+          <a href="https://form.typeform.com/to/SX2PnmnU" onClick={() => setIsOpen(false)} className="text-lg">Register</a>
         </SheetContent>
       </Sheet>
     </nav>
