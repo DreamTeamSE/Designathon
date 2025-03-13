@@ -3,8 +3,8 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Button } from "@/components/ui/items/button"
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/items/sheet"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)

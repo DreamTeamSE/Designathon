@@ -1,5 +1,5 @@
 import Hero from "@/components/layout/landing_page/Hero";
-import { Separator } from "@/components/ui/separator"
+import { Separator } from "@/components/ui/items/separator"
 
 
 export default function Home() {
