@@ -1,8 +1,8 @@
 "use client"
 
 import { useState } from "react";
-import DateToggle from "@/components/ui/Schedule/schedule_button";
-import EventSchedule from "@/components/ui/Schedule/schedule_events";
+import DateToggle from "@/components/ui/schedule/schedule_button";
+import EventSchedule from "@/components/ui/schedule/schedule_events";
 
 export default function Schedule() {
   const [day, setDay] = useState(8);
