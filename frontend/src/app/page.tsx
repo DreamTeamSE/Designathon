@@ -1,4 +1,4 @@
-import Hero from "@/components/layout/Hero";
+import Hero from "@/components/layout/landing_page/Hero";
 import { Separator } from "@/components/ui/separator"
 
 

@@ -1,5 +1,5 @@
-import Hero from "@/components/layout/Schedule/Hero";
-import Schedule from "@/components/layout/Schedule/Schedule";
+import Hero from "@/components/layout/schedule/Hero";
+import Schedule from "@/components/layout/schedule/Schedule";
 import { Separator } from "@/components/ui/separator"
 
 
