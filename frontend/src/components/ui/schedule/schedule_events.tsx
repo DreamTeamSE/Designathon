@@ -49,9 +49,9 @@ export default function EventSchedule({day}: Readonly<{day: number}>) {
           transition={{ duration: .5 + 0.25 * index, ease: "easeInOut" }} 
           className="flex justify-center">
             <Card className="border border-[#fca5a5] bg-[#fef2f2] w-[90vw] my-[8px]">
-              <CardContent className="flex flex-row justify-between items-center my-[8px]">
-                <span className="font-semibold text-xl">{event.title}</span>
-                <span className="text-xl">{event.time}</span>
+              <CardContent className="flex flex-row justify-between items-center my-[6px]">
+                <span className="font-semibold text-l">{event.title}</span>
+                <span className="text-l">{event.time}</span>
               </CardContent>
             </Card>
           </motion.div>
