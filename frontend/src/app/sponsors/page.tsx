@@ -1,9 +1,9 @@
 "use client";
 
-import Hero from "@/components/layout/schedule/Hero";
-import Schedule from "@/components/layout/schedule/Schedule";
-import ApplySection from "@/components/layout/sections/apply-section";
+import Hero from "@/components/layout/sponsors/Hero";
 import { Separator } from "@/components/ui/items/separator";
+import Sponsors from "@/components/layout/sponsors/Sponsors";
+import ApplySection from "@/components/layout/sections/apply-section";
 import AnimatedSection from "@/components/layout/sections/AnimatedSection";
 
 export default function Page() {
@@ -14,13 +14,13 @@ export default function Page() {
         <Hero />
       </AnimatedSection>
       <Separator className="w-[1vw]" />
-      
-      {/* Schedule Section */}
+
+      {/* Sponsors Section */}
       <AnimatedSection>
-        <Schedule />
+        <Sponsors />
       </AnimatedSection>
       <Separator className="w-[1vw]" />
-      
+
       {/* Apply Section */}
       <AnimatedSection>
         <ApplySection />

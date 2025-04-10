@@ -1,12 +1,7 @@
-import Hero from "@/components/layout/Hero";
-import { Separator } from "@/components/ui/separator"
+"use client";
 
+import Home from "@/app/home/page";
 
-export default function Home() {
-  return (
-    <div>
-      <Hero />
-      <Separator className="w-[1vw]"/>
-    </div>
-  );
+export default function Page() {
+  return <Home />
 }
