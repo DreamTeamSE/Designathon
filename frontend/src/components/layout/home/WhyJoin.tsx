@@ -32,7 +32,7 @@ export default function WhyShouldYouJoin() {
           >
             <div className="flex flex-col">
               <h3 className="text-md font-bold p-4">{item.title}</h3>
-              <div className="relative w-80 h-80 overflow-hidden quarter__circle ml-auto">
+              <div className="relative w-65 h-65 overflow-hidden quarter__circle ml-auto m-4">
                 <Image
                   src={item.src}
                   alt={item.alt}
