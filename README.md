@@ -6,7 +6,7 @@ The website will serve as the central hub for event information, applications, a
 
 ### Prerequisites
 
-- Ensure you have [Node.js](https://nodejs.org/) installed on your system. Use the latest **TLS (Long-Term Support)** version as recommended.
+- Ensure you have [Node.js](https://nodejs.org/) installed on your system. Use the latest **LTS (Long-Term Support)** version as recommended.
 
 ### Installation
 

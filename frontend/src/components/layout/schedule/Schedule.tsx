@@ -10,7 +10,7 @@ export default function Schedule() {
 
 
   return (
-    <div className="pt-[60px] flex flex-col items-center">
+    <div className="mb-[5em] pt-[5em] flex flex-col items-center">
       <DateToggle day={day} setDay={setDay}></DateToggle>
       <EventSchedule day={day}></EventSchedule>
     </div>

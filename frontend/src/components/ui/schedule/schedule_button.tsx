@@ -1,5 +1,4 @@
 "use client";
-import {motion} from "framer-motion"
 import { cn } from "@/lib/utils"; // Ensure ShadCN utils are set up
 
 export default function DateToggle({
@@ -7,10 +6,7 @@ export default function DateToggle({
   setDay,
 }: Readonly<{ day: number; setDay: (day: number) => void }>) {
   return (
-    <motion.div 
-    initial={{ opacity: 0 }} 
-    animate={{ opacity: 1 }}  
-    transition={{ duration: 0.5, ease: "easeInOut" }} 
+    <div 
     className="flex items-center justify-center" >
       {/* Toggle Container with White Background */}
       <div className="relative flex bg-white text-blue-600 rounded-full p-2 w-[40vw] border border-blue-500 shadow-md">
@@ -42,6 +38,6 @@ export default function DateToggle({
           </span>
         </button>
       </div>
-    </motion.div>
+    </div>
   );
 }
