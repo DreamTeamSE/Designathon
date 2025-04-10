@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/items/button";
-import { motion } from "framer-motion";
 
 export default function ApplySection() {
     return (

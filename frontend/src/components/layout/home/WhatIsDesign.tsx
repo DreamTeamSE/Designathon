@@ -1,8 +1,5 @@
 "use client";
 
-import Hero from "@/components/layout/home/Hero";
-import { Separator } from "@/components/ui/items/separator";
-import ApplySection from "@/components/layout/sections/apply-section";
 import AnimatedSection from "@/components/layout/sections/AnimatedSection";
 import Image from "next/image";
 import { Card } from "@/components/ui/items/card";
@@ -32,12 +29,6 @@ export default function Page() {
             </p>
           </div>
         </div>
-      </AnimatedSection>
-
-      <Separator className="w-[1vw]" />
-
-      <AnimatedSection>
-        <ApplySection />
       </AnimatedSection>
     </div>
   );
