@@ -1,3 +1,5 @@
+"use client";
+
 export default function Prizes() { 
     return (
         <div>

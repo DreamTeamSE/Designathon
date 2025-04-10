@@ -1,33 +1,30 @@
-"use client"
+"use client";
 
 import Hero from "@/components/layout/schedule/Hero";
 import Schedule from "@/components/layout/schedule/Schedule";
 import ApplySection from "@/components/layout/sections/apply-section";
-import {motion} from "framer-motion"
-import { Separator } from "@/components/ui/items/separator"
-
+import { Separator } from "@/components/ui/items/separator";
+import AnimatedSection from "@/components/layout/sections/AnimatedSection";
 
 export default function Page() {
   return (
-    <>
-      <motion.div      
-          initial={{ opacity: 0 }} 
-          animate={{ opacity: 1 }}  
-          transition={{ duration: 0.5, ease: "easeInOut" }} >
-                  <Hero />
-                  <Separator className="w-[1vw]"/>
-      </motion.div>
-      <Schedule />
-
-      <motion.div 
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: false }}
-      transition={{ duration: 0.5, ease: "easeInOut" }}
-      className="mt-[60px] mb-[48px] flex flex-col justify-center items-center">
-        <Separator className="mt-[5em] mb-[5em] w-[1vw]"/>
+    <div>
+      {/* Hero Section */}
+      <AnimatedSection>
+        <Hero />
+      </AnimatedSection>
+      <Separator className="w-[1vw]" />
+      
+      {/* Schedule Section */}
+      <AnimatedSection>
+        <Schedule />
+      </AnimatedSection>
+      <Separator className="w-[1vw]" />
+      
+      {/* Apply Section */}
+      <AnimatedSection>
         <ApplySection />
-      </motion.div>
-    </>
+      </AnimatedSection>
+    </div>
   );
 }
