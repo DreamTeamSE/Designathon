@@ -1,4 +1,4 @@
-export default function () {
+export default function Hero() {
   return (
     <div 
     className="pt-[60px] pb-[48px] flex flex-col justify-center items-center"
