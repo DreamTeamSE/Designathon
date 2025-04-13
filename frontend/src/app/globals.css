@@ -137,5 +137,26 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', Arial;
+  }
+}
+
+
+/* e.g., styles/globals.css or a dedicated CSS file */
+@keyframes accordionDown {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordionUp {
+  0% {
+    height: var(--radix-accordion-content-height);
+  }
+  100% {
+    height: 0;
   }
 }
