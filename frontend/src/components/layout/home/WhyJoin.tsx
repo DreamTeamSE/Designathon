@@ -12,18 +12,18 @@ export default function WhyShouldYouJoin() {
     {
       title: "LEARN",
       alt: "Participant learning during a session",
-      src: "/assets/operation.png",
+      src: "/assets/arduino.png",
     },
     {
       title: "NETWORK",
       alt: "Group of participants networking at a table",
-      src: "/assets/operation.png",
+      src: "/assets/marston.png",
     },
   ];
 
   return (
-    <div className="flex flex-col items-center py-10 px-6 md:px-12">
-      <h2 className="text-xl font-semibold mb-10 text-center">WHY SHOULD YOU JOIN?</h2>
+    <div className="flex flex-col items-center px-6 md:px-12 my-10">
+      <h2 className="text-[40px] font-bold font-semibold mb-10 text-center">WHY SHOULD YOU JOIN?</h2>
       <div className="flex flex-wrap justify-center gap-6 w-full max-w-6xl">
         {items.map((item) => (
           <div
@@ -38,7 +38,7 @@ export default function WhyShouldYouJoin() {
                   alt={item.alt}
                   width={500}
                   height={300}
-                  className="object-cover"
+                  className="object-cover w-full h-full rounded-2xl"
                 />
               </div>
             </div>

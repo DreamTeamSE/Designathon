@@ -14,28 +14,28 @@ export function Navbar() {
     <nav className="flex items-center justify-between p-6 bg-background">
       {/* Logo */}
       <Link href="/" className="text-xl">
-      <span className="flex flex-row font-bayon select-none">
-        <h1 className="text-[24px] relative group">
+      <span className="flex flex-row font-bayon select-none items-center">
+        <h1 className="text-[28px] font-extrabold relative group">
           DESIGNATH
         </h1>
         <Image
           src="/assets/transparent_heart.png"
           alt="X"
-          width={24}
-          height={24}
-          className="object-contain animate-move relative -translate-y-[3px]"
+          width={22}
+          height={22}
+          className="object-cover w-[22px] h-[22px] -translate-y-[3px]"
         />
-        <h1 className="text-[24px]">N</h1>
+        <h1 className="text-[28px]  font-extrabold">N</h1>
         </span>
       </Link>
 
       {/* Desktop Navigation */}
-      <div className="hidden md:flex">
+      <div className="hidden md:flex items-center justify-center">
         <Link href="/about" className="hover:text-secondary mx-[12px]">ABOUT</Link>
         <Link href="/schedule" className="hover:text-secondary mx-[12px]">SCHEDULE</Link>
         <Link href="/prizes" className="hover:text-secondary mx-[12px]">PRIZES</Link>
         <Link href="/sponsors" className="hover:text-secondary mx-[12px]">SPONSORS</Link>
-        <a href="https://form.typeform.com/to/SX2PnmnU" target="_blank">
+        <a href="https://form.typeform.com/to/SX2PnmnU" target="_blank" rel="noopener noreferrer">
           <Button variant="default" size="sm" className="hover:bg-secondary mx-[10px]">REGISTER</Button>
         </a>
         

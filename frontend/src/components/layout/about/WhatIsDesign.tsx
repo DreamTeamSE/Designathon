@@ -7,11 +7,11 @@ export default function WhatIsDesign() {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 h-min py-[52px]">
             <div className="flex items-center justify-center">
                 <Image
-                    src="/assets/transparent_heart.png"
+                    src="/assets/build.png"
                     alt="Designathon Heart Logo"
-                    width={250}
-                    height={250}
-                    className="object-contain animate-move relative h-[40vw] md:h-[20vw] w-auto"
+                    width={500}
+                    height={500}
+                    className="object-cover animate-move relative h-[40vw] md:h-[20vw] w-auto rounded-[16px]"
                 />
             </div>
      

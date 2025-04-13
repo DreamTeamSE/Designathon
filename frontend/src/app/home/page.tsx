@@ -18,9 +18,11 @@ export default function Page() {
       <AnimatedSection>
         <WhatIsDesign />
       </AnimatedSection>
+      <Separator className="w-[1vw]" />
       <AnimatedSection>
         <WhyShouldYouJoin />
       </AnimatedSection>
+      <Separator className="w-[1vw]" />
       <AnimatedSection>
         <ApplySection />
       </AnimatedSection>
