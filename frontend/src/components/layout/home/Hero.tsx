@@ -18,7 +18,7 @@ export default function Hero() {
                 />
                 <h1 className="text-4xl md:text-[6em] font-extrabold font-bayon">N</h1>
             </span>
-            <h1 className="text-xl md:text-[2em] mt-[8px] text-primary">
+            <h1 className="text-xl md:text-[2em] mt-[8px]  font-bold text-primary font-bayon">
                 Brought to you by Dream Team Engineering
             </h1>
         </div>
