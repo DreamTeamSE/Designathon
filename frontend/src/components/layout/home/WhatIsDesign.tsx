@@ -2,7 +2,6 @@
 
 import AnimatedSection from "@/components/layout/sections/AnimatedSection";
 import Image from "next/image";
-import { Card } from "@/components/ui/items/card";
 
 export default function Page() {
   return (
